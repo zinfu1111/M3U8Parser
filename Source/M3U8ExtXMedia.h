@@ -50,5 +50,6 @@
 
 - (NSURL *)m3u8URL;   // the absolute url of media playlist file
 - (NSString *)m3u8PlainString;
+- (NSInteger)channels;
 
 @end

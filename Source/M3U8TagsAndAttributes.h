@@ -191,6 +191,8 @@
 #define M3U8_EXT_X_MEDIA_CHARACTERISTICS    @"CHARACTERISTICS" // The value is a quoted-string containing one or more Uniform Type Identifiers [UTI] separated by comma (,) characters.
 #define M3U8_EXT_X_MEDIA_BANDWIDTH          @"BANDWIDTH"
 
+#define M3U8_EXT_X_MEDIA_CHANNELS          @"CHANNELS" //This value is used to identify surround and stereo sound; valid int.
+
 
 /// EXT-X-STREAM-INF
 /**

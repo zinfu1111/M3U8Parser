@@ -78,6 +78,10 @@
     return [self.dictionary[M3U8_EXT_X_MEDIA_BANDWIDTH] integerValue];
 }
 
+- (NSInteger)channels {
+    return [self.dictionary[M3U8_EXT_X_MEDIA_CHANNELS] integerValue];
+}
+
 - (NSURL *)m3u8URL {
     if (self.URI.scheme) {
         return self.URI;
